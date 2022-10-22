@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "spa-app"
+    }
+  },
+  "defaultProject": "spa-app",
+  "cli": {
+    "analytics": false
+  }
 }
