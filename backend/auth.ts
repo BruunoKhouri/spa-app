@@ -15,21 +15,6 @@ export const handleAuthentication = (req: Request, resp: Response) => {
     }
 }
 
-// export const handleCreation = (req: Request, resp: Response) => {
-//     // const user: User = req.body;
-//     const user = new User(req.body.email, req.body.name, req.body.password);
-//     if (true) {
-//         const newUser: { [key: string]: User } = {
-//             [`${user.email}`]: new User(user.email, user.name, user.password)
-//         }
-//         user.addUser(newUser);
-//         resp.json({ name: newUser.name, email: newUser.email });
-//         resp.status(500).json({ newUser, users });
-//     } else {
-//         resp.status(403).json({ message: 'Dados inválidos.' });
-//     }
-// }
-
 export const handleGet = (req: Request, resp: Response) => {
     resp.json({ users: users });
 }
