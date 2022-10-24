@@ -37,7 +37,7 @@ export class LoginComponent implements OnInit {
         setTimeout(() => {
           localStorage.setItem('user', null);
           this.loginService.isLoggedIn();
-        }, 360000),
+        }, 3600000),
         response => console.log(response),
         this.router.navigate([atob(this.navigateTo)]);
     });

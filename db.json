@@ -41,6 +41,42 @@
       "name": "Bruno",
       "password": "stival123",
       "id": 3
+    },
+    {
+      "email": "joyce@gmail.com",
+      "name": "joyce",
+      "password": "joyce123",
+      "id": 4
+    },
+    {
+      "email": "teste@gmail.com",
+      "name": "teste",
+      "password": "teste123",
+      "id": 5
+    },
+    {
+      "email": "teste1@gmail.com",
+      "name": "teste2",
+      "password": "teste1234",
+      "id": 6
+    },
+    {
+      "email": "teste3@gmail.com",
+      "name": "teste3",
+      "password": "teste3",
+      "id": 7
+    },
+    {
+      "email": "eumesmo@gmail.com",
+      "name": "eumesmo",
+      "password": "testando",
+      "id": 8
+    },
+    {
+      "email": "testeFinal@gmail.com",
+      "name": "brunno",
+      "password": "final",
+      "id": 9
     }
   ]
 }
