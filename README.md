@@ -34,3 +34,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 nodemon --watch backend backend/dist/backend/server.js
 
+## Back-end server
+
+https://localhost:3001
