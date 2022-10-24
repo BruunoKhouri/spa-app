@@ -42,4 +42,8 @@ export class LoginComponent implements OnInit {
         this.router.navigate([atob(this.navigateTo)]);
     });
   }
+
+  public navigate() {
+    this.router.navigate(['/registration']);
+  }
 }

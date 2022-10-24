@@ -37,3 +37,16 @@ nodemon --watch backend backend/dist/backend/server.js
 ## Back-end server
 
 https://localhost:3001
+
+## Navegation on aplication
+
+http://localhost:4200/login.
+
+registered user.
+
+email: teste@gmail.com.
+password: teste.
+
+If you want to create a user.
+
+http://localhost:4200/registration.

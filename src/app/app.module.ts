@@ -11,12 +11,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { LoggedInGuard } from './security/loggedin.guard';
 import { HomeComponent } from './home/home.component';
 import { AuthInterceptor } from './security/auth.interceptor';
+import { RegistrationComponent } from './security/registration/registration.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    RegistrationComponent
 
   ],
   imports: [

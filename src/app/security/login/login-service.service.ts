@@ -30,8 +30,8 @@ export class LoginServiceService {
     return this.http.post<User>(`${MEAT_API}/login`, { email: email, password: password }).pipe(tap(user => { this.user = user; console.log('doUser', user) }));
   }
 
-  create(name: string, email: string, password: string): Observable<User> {
-    return this.http.post<User>(`${MEAT_API}/login`, { email: email, password: password }).pipe(tap(user => { this.user = user; console.log('doUser', user) }));
+  create( email: string, name: string, password: string): Observable<User> {
+    return this.http.post<User>(`${MEAT_API}/users`, { email: email, name: name, password: password });
   }
 
   logout() {
