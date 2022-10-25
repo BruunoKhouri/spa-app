@@ -12,13 +12,17 @@ import { LoggedInGuard } from './security/loggedin.guard';
 import { HomeComponent } from './home/home.component';
 import { AuthInterceptor } from './security/auth.interceptor';
 import { RegistrationComponent } from './security/registration/registration.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    RegistrationComponent
+    RegistrationComponent,
+    HeaderComponent
 
   ],
   imports: [
@@ -27,12 +31,15 @@ import { RegistrationComponent } from './security/registration/registration.comp
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    BrowserAnimationsModule,
+    MatToolbarModule
 
   ],
   providers: [
     LoginServiceService,
     LoggedInGuard,
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
+
   ],
   bootstrap: [AppComponent]
 })

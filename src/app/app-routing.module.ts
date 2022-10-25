@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: 'login/:to', component: LoginComponent },
   { path: 'login', component: LoginComponent },
   { path: 'registration', component: RegistrationComponent },
-  { path: '', component: HomeComponent },
+  { path: '', component: HomeComponent, canActivate: [LoggedInGuard] },
   {
     path: 'home', component: HomeComponent, canActivate: [LoggedInGuard],
     children: [

@@ -1,0 +1,13 @@
+mat-toolbar {
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  height: 50px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+}
+
+.log {
+  cursor: pointer;
+  text-decoration: underline;
+}
