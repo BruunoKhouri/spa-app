@@ -1,3 +1,15 @@
+## Intro in PT-BR.
+
+Desenvolvimento FULL-STACK, com enfase em FRONT-END DEVELOPER. 
+
+Desenvolvimento Angular 10+ de acordo com arquitetura e boas práticas.
+
+Cocriação e integrações com APIs.
+
+Avaliação de viabilidade técnica de uma proposta de solução (UI/UX).
+
+Criação de bibliotecas de códigos reutilizáveis.
+
 # SpaApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
@@ -50,3 +62,39 @@ password: teste.
 If you want to create a user.
 
 http://localhost:4200/registration.
+
+## Print Screen
+
+## Login
+
+![login](https://user-images.githubusercontent.com/75075067/197666104-786473ba-f53d-459a-82aa-5757d4405c80.png)
+
+## registration
+
+![registration](https://user-images.githubusercontent.com/75075067/197666180-38135437-8d5d-491f-872d-675d735b9cf7.png)
+
+## authentication part 1
+
+![autenticacaoOne](https://user-images.githubusercontent.com/75075067/197666259-18e4c1f5-35e7-4a95-a893-0e3e8399f787.png)
+
+## authentication part 2
+
+![autenticacaoTwo](https://user-images.githubusercontent.com/75075067/197666335-de6852bc-c3df-4832-9378-f35503a9075a.png)
+
+## Localização 
+
+![localização](https://user-images.githubusercontent.com/75075067/197666388-3a239ecf-a084-47fd-8a1b-371e8db49ec6.png)
+
+## home
+
+![home](https://user-images.githubusercontent.com/75075067/197666424-644982a7-fae7-4517-b41b-4511798ada72.png)
+
+## server
+
+![server](https://user-images.githubusercontent.com/75075067/197666457-cfa115ad-3495-4ebf-97c5-eb468bfc3121.png)
+
+
+
+
+
+
