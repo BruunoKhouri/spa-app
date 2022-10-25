@@ -39,6 +39,7 @@ server.use(jsonServer.bodyParser);
 //
 server.post('/login', auth_1.handleAuthentication);
 server.use('/home', authz_1.handleAuthorization);
+server.get('/users', authz_1.handleAuthorization);
 // Use default router
 server.use(router, authz_1.handleAuthorization);
 var options = {

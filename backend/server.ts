@@ -22,6 +22,7 @@ server.use(jsonServer.bodyParser)
 //
 server.post('/login', handleAuthentication);
 server.use('/home', handleAuthorization);
+server.get('/users', handleAuthorization);
 
 
 
