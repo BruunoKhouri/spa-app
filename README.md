@@ -45,6 +45,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Backend.
 Backend criado com express e typescript.
 ## Iniciando o Backend.
+node backend/dist/backend/server
 nodemon --watch backend backend/dist/backend/server.js.
 ## Back-end server
 

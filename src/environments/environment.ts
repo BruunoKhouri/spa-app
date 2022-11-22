@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  api: 'https://localhost:3001'
+  api: 'https://localhost:3001',
+  key_weather: 'a7468f1f3798d3731f3f078a266a732b'
 };
 
 /*

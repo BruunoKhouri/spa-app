@@ -6,15 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './security/login/login.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { LoginServiceService } from './security/login/login-service.service';
+import { LoginServiceService } from './security/login/service/login-service.service';
 import { HttpClientModule } from '@angular/common/http';
 import { LoggedInGuard } from './security/loggedin.guard';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './core/components/home/home.component';
 import { AuthInterceptor } from './security/auth.interceptor';
 import { RegistrationComponent } from './security/registration/registration.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './layout/header/header.component';
+import { WeathermapService } from './core/services/weathermap.service';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { HeaderComponent } from './header/header.component';
     LoginServiceService,
     LoggedInGuard,
     { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
+    WeathermapService
 
   ],
   bootstrap: [AppComponent]

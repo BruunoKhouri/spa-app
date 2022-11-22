@@ -9,7 +9,7 @@
     <button (click)="getWeatherData()" type="submit">Search</button>
   </form>
 
-  <div id="divWeatherMain">
+  <div *ngIf="WeatherData" id="divWeatherMain">
     <div *ngIf="WeatherData.isDay" class="weatherWidgetRow">
       <i class="fas fa-3x fa-sun sun"></i>
     </div>

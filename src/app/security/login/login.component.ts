@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
-import { LoginServiceService } from './login-service.service';
-import { User } from './user.model';
+import { LoginServiceService } from './service/login-service.service';
+import { User } from './modal/user.model';
 
 
 @Component({

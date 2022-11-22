@@ -1,8 +1,14 @@
 {
     "users": [{
             "email": "teste@gmail.com",
-            "name": "Futuro Builder",
+            "name": "Tester",
             "password": "teste",
             "id": 1
+        },   
+        {
+          "email": "valor@gmail.com",
+          "name": "Brunno ",
+          "password": "1234",
+          "id": 2
         }]
 }
